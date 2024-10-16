@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Script API",
+    "description": "A type-safe configuration for Bedrock Script API behavior packs!",
+    "uuid": "d2e202c4-8dae-44bc-912e-a9703de622d2",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "510ca68b-1131-4dd1-b592-ca418d574156",
+      "version": [1, 0, 0]
+    }
+  ]
+}
