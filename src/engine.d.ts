@@ -1,25 +1,5 @@
 /// <reference no-default-lib="true"/>
-/// <reference lib="es2015" />
-/// <reference lib="es2016.array.include" />
-/// <reference lib="es2017.object" />
-/// <reference lib="es2017.sharedmemory" />
-/// <reference lib="es2017.string" />
-/// <reference lib="es2017.typedarrays" />
-/// <reference lib="es2017.date" />
-/// <reference lib="es2018.asynciterable" />
-/// <reference lib="es2018.asyncgenerator" />
-/// <reference lib="es2018.promise" />
-/// <reference lib="es2018.regexp" />
-/// <reference lib="es2019.array" />
-/// <reference lib="es2019.object" />
-/// <reference lib="es2019.string" />
-/// <reference lib="es2019.symbol" />
-/// <reference lib="es2020.date" />
-/// <reference lib="es2020.number" />
-/// <reference lib="es2020.promise" />
-/// <reference lib="es2020.sharedmemory" />
-/// <reference lib="es2020.string" />
-/// <reference lib="es2020.symbol.wellknown" />
+/// <reference lib="es2020" />
 
 declare var AggregateError: AggregateErrorConstructor;
 
