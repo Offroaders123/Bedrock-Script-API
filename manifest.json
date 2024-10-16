@@ -13,7 +13,7 @@
       "uuid": "510ca68b-1131-4dd1-b592-ca418d574156",
       "version": [1, 0, 0],
       "language": "javascript",
-      "entry": "dist/index.js"
+      "entry": "scripts/main.js"
     }
   ]
 }

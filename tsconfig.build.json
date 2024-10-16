@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./scripts",
     "noEmit": false,
     "declaration": true,
     "sourceMap": true
