@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ESNext",
+    "isolatedModules": true,
+    "lib": [],
+    "types": [
+      "quickjs-types"
+    ],
+    "noEmit": true,
+    "strict": true,
+    "stripInternal": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "allowUnusedLabels": false,
+    "noUnusedParameters": true
+  }
+}
