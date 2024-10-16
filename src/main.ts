@@ -41,7 +41,7 @@ String;
 Symbol;
 Math;
 Reflect;
-// eval; (supported, has to be enabled in the manifest)
+// eval; // (supported, has to be enabled in the manifest)
 globalThis;
 Date;
 RegExp;
@@ -65,10 +65,18 @@ console.info;
 // BigInt; // not supported
 // BigUint64Array; // not supported
 // Intl; // not supported
-// SharedArrayBuffer; true?? nice!
+SharedArrayBuffer; // true?? nice!
 
 console.warn("Atomics", "Atomics" in globalThis);
 console.warn("BigInt", "BigInt" in globalThis);
 console.warn("BigUint64Array", "BigUint64Array" in globalThis);
 console.warn("Intl", "Intl" in globalThis);
 console.warn("SharedArrayBuffer", "SharedArrayBuffer" in globalThis);
+
+console.warn(__date_clock());
+console.warn(__date_clock());
+console.warn(__date_clock());
+
+// console.warn(__date_clock(5));
+// console.warn(__date_clock("hey"));
+// console.warn(__date_clock([5, "fdsf"]));
