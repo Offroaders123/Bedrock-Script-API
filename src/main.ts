@@ -1,8 +1,7 @@
-import {} from "@minecraft/common";
-import { gg as gg2 } from "./main.js";
+import { type Player, world } from "@minecraft/server";
 
-export const gg = 5;
+const players: Player[] = world.getAllPlayers();
 
-console.warn(gg2);
-
-await Promise.resolve(5);
+for (const player of players) {
+  world.sendMessage(player.dimension.id);
+}
