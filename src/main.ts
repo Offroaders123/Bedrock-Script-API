@@ -61,6 +61,9 @@ console.info;
 
 // will probably error
 
+// BigInt; // not supported
+// BigInt64Array; // not supported
+// BigUint64Array; // not supported
 // Atomics; // not supported
 // BigInt; // not supported
 // BigUint64Array; // not supported
