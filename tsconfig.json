@@ -6,7 +6,6 @@
     "lib": ["ES2023"],
     "noEmit": true,
     "strict": true,
-    "stripInternal": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
