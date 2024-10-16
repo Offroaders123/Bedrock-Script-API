@@ -3,10 +3,7 @@
     "module": "NodeNext",
     "target": "ESNext",
     "isolatedModules": true,
-    "lib": [],
-    "types": [
-      "quickjs-types"
-    ],
+    "lib": ["ES2023"],
     "noEmit": true,
     "strict": true,
     "stripInternal": true,

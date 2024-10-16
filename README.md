@@ -11,6 +11,3 @@ Say like when you use a Service Worker in TypeScript for example, you don't want
 
 [Engine Environment - Bedrock Wiki](https://wiki.bedrock.dev/scripting/api-environment)
 - Found out about the documentation for the environment itself, and that it's built on a fork of QuickJS. I was looking to see what APIs were available as part of the standard library, that seemed the most interesting to me, say like if you could use generators, Promises, modern language features. QuickJS itself is up to ES2023 from the sounds of it, I'm not sure if Mojang's build is up to that level though, we'll have to test things out to find out. Could always use polyfills and TypeScript transpilation for older language targets though, so things can probably work out nice either way.
-
-[QuickJS Types](https://github.com/mgred/quickjs-types)
-- These are the typings for QuickJS itself. The standard lib `os` is almost certainly not available, because it is rooted in lower-level features that just wouldn't make sense in the context of this API surface and what it is meant to be used for. I'm not sure about `import * as std from "std"` though, I want to try that one.
